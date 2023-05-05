@@ -55,10 +55,10 @@ Recommended structure for `transactions`
 
 ```js
 [
-  { from: 'Warehouse', to: 'Dispensary', quantity: '2', item: 'Paracetamol' },
-  { from: 'Warehouse', to: 'Dispensary', quantity: '5', item: 'Ibuprofen' },
-  { from: 'Dispensary', to: 'ICU', quantity: '2', item: 'Syringe' },
-  { from: 'Warehouse', to: 'ICU', quantity: '10', item: 'Scalpel' },
+  { from: 'Warehouse', to: 'Dispensary', quantity: 2, item: 'Paracetamol' },
+  { from: 'Warehouse', to: 'Dispensary', quantity: 5, item: 'Ibuprofen' },
+  { from: 'Dispensary', to: 'ICU', quantity: 2, item: 'Syringe' },
+  { from: 'Warehouse', to: 'ICU', quantity: 10, item: 'Scalpel' },
 ];
 ```
 
